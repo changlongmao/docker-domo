@@ -1,0 +1,9 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    min-spare-threads: 30
+    accept-count: 5000
+  port: 8998
+  servlet:
+    context-path: /
+
